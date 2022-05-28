@@ -49,3 +49,71 @@ Press key "Esc"
 Press  ":wq"
 
 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+Create file: touch skills.json
+Open file: vim skills.json
+Press key "i"
+Write following text:
+
+{
+    "Базовая теория": "Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования, SDLC, STLC.",
+    "клиент-сервер": "клиент-серверная архитектура",
+    "Методы запросов на сервер": "HTTP",
+    "Коды ответов": "HTTP сервера",
+    "Структуры": "HTTP запросов и ответов",
+    "Структура": "JSON, XML",
+    "Тестирование API": "через Postman (JS, автотесты API)",
+    "Снятие и чтение логов": "c внешнего сервера",
+    "Снифинг": " http web трафика через Charles и Fiddler",
+    "Dev Tools веб браузеров": "Google Chrome, FireFox",
+    "VPN": "Как работает, зачем нужен, как использовать, варианты инструментов",
+    "тестирование": "Мобильное",
+    "гайдлайны": "Особенность iOS, Android",
+    "Сборка": "iOS приложений на XCode.",
+    "Сборка": "Androidприложений на Android Studio.",
+    "ADB": "управление андройд девайсами",
+    "Настройка": " прокси и vpn на iOS и Android",
+    "Перехват (сниффинг) мобильного трафика": "через Charles и Fiddler на iOS и Android",
+    "Командная строка (terminal) Linux": "копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса",
+    "Основы bash скриптинг": "автоматизация рутинных задач на сервере",
+    "Доступ": "к удалённым серверам",
+    "Основы SQL": "Create, Delete, Drop, Insert Into, Select, From, Where, Join",
+    "База данных": "Postgres, установка, настройка и использование",
+    "Нереляционная база данных": " Redis установка, настройка и использование",
+    "Нагрузочное тестирование": "в Jmeter",
+    "Методология разработки": "Scrum",
+    "Python": "Изучение основ. Создание клиент серверного приложения"
+}
+
+Press key "Esc"
+Press  ":wq"
+
+15. Отправить сразу 2 файла на внешний репозиторий.	git add
+							git commit -m "p+s_commit new.json"
+							git push
+
+16. На веб интерфейсе создать файл bug_report.json.	press button: "Add file"
+							write in form "create new file": bug_report.json
+
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.	write in form "Commit new file": "First Commit"
+									press button "Commit new file"
+
+18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+
+Edit this file:
+
+{ 
+  "id":2,
+  "Environment":"Samsung Galaxy SM-A510F, Android 7.0",
+  "Title":"Add widget” button is not working on device",
+  "Severity":"high",
+  "Priority":"low",
+  "Precondition":{"first":"clear the app from running","second":"Download app-widgets-test.apk file"},
+  "TR":["Open app","Click","Add Widget","button"],
+  "AR":["Nothing happens","button is not working","widget is not created on any page"],
+  "ER":"Widget creation window appears widget created",
+  "Attachments":"file.mp4"
+}
+
+19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.	press button:"Commit changes"
+
+20. Синхронизировать внешний и локальный репозиторий JSON		git pull  
