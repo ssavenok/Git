@@ -1,0 +1,8 @@
+FIO - Sergei Aleksadrovich,
+
+age - 46,
+
+number of pets - 1,
+
+Future desired salary 600
+
