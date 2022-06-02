@@ -1,0 +1,11 @@
+<ID2>
+	<Environment>Samsung Galaxy SM-A510F, Android 7.0</Environment>
+	<Title>Add widget” button is not working on device</Title>
+	<Severity>high</Severity>
+	<Priority>low</Priority>
+	<Precondition>clear the app from running, Download app-widgets-test.apk file</Precondition>
+	<TR>Open app,Click,Add Widget,button</TR>
+	<AR>Nothing happens,button is not working</AR>
+	<ER>Widget creation window appears widget created</ER>
+	<Attachments>file.mp4</Attachments>
+</ID2>
