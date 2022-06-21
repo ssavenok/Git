@@ -1,0 +1,9 @@
+//при новом устройстве добавить путь githut
+
+//проверить на ком зарегистрирован ГитХаб  
+git config user.email
+//покажет на ком зарегин ГитХаб
+git config --global user.email "s****k@gmail.com"  //маэйл на который регили гитхаб
+git config --global user.name "s***k"
+git config --global user.name //для проверки. 
+git push  //должно пройти и работать
